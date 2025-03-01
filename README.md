@@ -36,6 +36,11 @@ __OBS-01:__ _Toda alteração realizada no arquivo devcontainer.json e/ou Docker
 * Aperte as telcas Ctrl + Shift + 'P' simultameamente para abrir a Paleta de Comandos do VS Code.
 * Na lista suspensa aberta, selecione 'Dev Containers: Reopen Folder Locally'. Este comando encerrará o ambiente de desenvolvimento criado pelo devcontainer e retornará para o ambiente local original.
 
+Como o Dev Container cria um container para o desenvolvedor com todo o ambiente necessário para seu trabalho. Este container pode ser acessado como qualquer outro container docker em execução na máquina host.
+Fora do Dev Container, execute:
+* docker container ls -a (para listar os containers em execução);
+* docker container exec -ti quatro_primeiros_digitos_do_id_do_container bash;
+* navegue pelas pastas até identificar a pasta do projeto.
 
 <f0oter>
     <p> As dicas deste documentos foram baseadas no post <a href='https://medium.com/marvelous-mlops/how-to-start-with-dev-containers-1e92bf0e0f78'>How To Start With Dev Containers</a>.
