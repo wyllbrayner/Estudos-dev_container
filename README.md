@@ -2,9 +2,9 @@
 __OBS:__ _este guia desmonstrará a criação de um ambiente de desenvolvimento python que servirá de base para a criação de qualquer outro projeto_
 
 ## Prerequisitos:
-* VS Code instalado
-    [veja procedimentos no endereço:]
-    (https://code.visualstudio.com/download)
+* VS Code instalado no 
+    <a href="https://code.visualstudio.com/download">link
+    </a>.
 * Possuir a extenssão Dev Containers (desenvolvida pela Microsoft) instalada no VS Code.
 * WSL2 instalado na máquina (se estiver usando Sistema Operacional diferente do Linux).
 * Docker sendo executado na máquina e habilitado para usar o WSL2 (se estiver usando Sistema Operacional diferente do Linux).
