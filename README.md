@@ -48,6 +48,7 @@ Fora do Dev Container, execute:
 * docker container exec -ti quatro_primeiros_digitos_do_id_do_container bash;
 * navegue pelas pastas até identificar a pasta do projeto.
 
+## Referências bibliográficas
 <footer>
     <p>O conteúdo presente neste documentos foi baseado no post <a href='https://medium.com/marvelous-mlops/how-to-start-with-dev-containers-1e92bf0e0f78'>How To Start With Dev Containers</a>.
     </p>
