@@ -49,6 +49,8 @@ Fora do Dev Container, execute:
 * navegue pelas pastas até identificar a pasta do projeto.
 
 <footer>
-    <p> As dicas deste documentos foram baseadas no post <a href='https://medium.com/marvelous-mlops/how-to-start-with-dev-containers-1e92bf0e0f78'>How To Start With Dev Containers</a>.
+    <p>O conteúdo presente neste documentos foi baseado no post <a href='https://medium.com/marvelous-mlops/how-to-start-with-dev-containers-1e92bf0e0f78'>How To Start With Dev Containers</a>.
+    </p>
+    <p>Acesse este <a href="https://code.visualstudio.com/docs/devcontainers/containers">link</a> da Microsoft para maiores informações sobre Dev Containers.
     </p>
 </footer>
