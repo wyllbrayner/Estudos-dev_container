@@ -1,10 +1,16 @@
-# Criar novo projeto usando devcontainer com VS Code
-__OBS:__ _este guia desmonstrará a criação de um ambiente de desenvolvimento python que servirá de base para a criação de qualquer outro projeto_
+# Dev Containers com VS Code
 
-## Prerequisitos:
+## O que são Dev Containers?
+Os Dev Containeres, fornecem um ambiente de desenvolvimento empacotado em um contêiner que pode ser facilmente acessado por meio do VS Code. Padronizando o ambiente de desenvolvimento usado em cada projeto e por todos os membros da equipe de desenvolvimento.
+
+Por serem empacotados em contêiners, são ambiente isolados entre sim. Não sofrendo interferência de outros contêineres em execução ou configurações realizada localmente na máquina host.
+
+## Criar novo projeto usando devcontainer com VS Code
+__OBS:__ _Este guia desmonstrará a criação de um ambiente de desenvolvimento python que servirá de base para a criação de qualquer outro projeto com devcontainers._
+
+## Pré-requisitos:
 * VS Code instalado no 
-    <a href="https://code.visualstudio.com/download">link
-    </a>.
+    <a href="https://code.visualstudio.com/download">link</a>.
 * Possuir a extenssão Dev Containers (desenvolvida pela Microsoft) instalada no VS Code.
 * WSL2 instalado na máquina (se estiver usando Sistema Operacional diferente do Linux).
 * Docker sendo executado na máquina e habilitado para usar o WSL2 (se estiver usando Sistema Operacional diferente do Linux).
@@ -42,7 +48,7 @@ Fora do Dev Container, execute:
 * docker container exec -ti quatro_primeiros_digitos_do_id_do_container bash;
 * navegue pelas pastas até identificar a pasta do projeto.
 
-<f0oter>
+<footer>
     <p> As dicas deste documentos foram baseadas no post <a href='https://medium.com/marvelous-mlops/how-to-start-with-dev-containers-1e92bf0e0f78'>How To Start With Dev Containers</a>.
     </p>
-</f0oter>
+</footer>
