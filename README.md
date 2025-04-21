@@ -19,7 +19,7 @@ __OBS:__ _Este guia desmonstrará a criação de um ambiente de desenvolvimento 
 * Abra o VS Code.
 * Aperte as teclas Ctrl + Shift + 'P' simultaneamente para abrir a Paleta de Comandos do VS Code.
 * Na lista suspensa que aparecerá, selecione 'Dev Containers: Add Dev Containers Configuration Files...'.
-* Na lista suspensa, escolha a inagem base para a criação do continer. Para nosso exemplo, digite Python e selecione a versão do python a ser utilizada na imagem (escolhi a versão 3.12-bullseye para este exemplo).
+* Na lista suspensa, escolha a imagem base para a criação do continer. Para nosso exemplo, digite Python e selecione a versão do python a ser utilizada na imagem (escolhi a versão 3.12-bullseye para este exemplo).
 * Pode adicionar à imagem recursos adicionais, necessários para a aplicação ou ESC para avançar.
 
 Ao final deste procedimento, será criada nova pasta .devcontainer na raiz do repositório e esta pasta possuirá um arquivo de configuração devcontainer.json 
